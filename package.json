@@ -1,0 +1,19 @@
+{
+  "name": "copy-branch",
+  "version": "1.0.0",
+  "description": "Copy current Git branch name to clipboard",
+  "main": "index.js",
+  "bin": {
+    "copy-branch": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["git", "branch", "clipboard", "npx"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "execa": "^5.1.1"
+  }
+}
