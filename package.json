@@ -1,6 +1,6 @@
 {
   "name": "copy-branch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Copy current Git branch name to clipboard",
   "type": "module",
   "main": "index.js",
