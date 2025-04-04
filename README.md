@@ -1,6 +1,6 @@
 # copy-branch 📋
 
-![npm](https://img.shields.io/npm/v/copy-branch) ![GitHub](https://img.shields.io/github/license/your-username/copy-branch) ![npm downloads](https://img.shields.io/npm/dt/copy-branch)
+![npm](https://img.shields.io/npm/v/copy-branch) ![GitHub](https://img.shields.io/github/license/LukasNiessen/copy-branch) ![npm downloads](https://img.shields.io/npm/dt/copy-branch)
 
 # For Vanilla Git Gangster Devs 🥷🦅
 
@@ -77,7 +77,7 @@ Love copy-branch? Want to make it even better? Contributions are welcome!
 4. Push to the branch (git push origin feature/amazing-thing)
 5. Open a Pull Request
 
-Check out the GitHub repository (https://github.com/your-username/copy-branch) for more details!
+Check out the GitHub repository (https://github.com/LukasNiessen/copy-branch) for more details!
 
 License 📜
 
@@ -85,7 +85,7 @@ MIT License - See LICENSE (LICENSE) for details.
 
 Author 👨‍💻
 
-Built with ❤️ by Lukas Nießen (https://github.com/your-username)
+Built with ❤️ by Lukas Nießen (https://github.com/LukasNiessen)
 
 ⭐ Star us on GitHub if you find this useful!  
 📦 npm: copy-branch (https://www.npmjs.com/package/copy-branch)  
