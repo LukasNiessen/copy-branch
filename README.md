@@ -49,11 +49,16 @@ Branch name "feature/cool-stuff" copied to clipboard!
 
 Pull Requests are highly welcome.
 
-1. Fork the repo
-2. Create your feature branch (git checkout -b feature/amazing-thing)
-3. Commit your changes (git add -A, git commit -m "Add amazing thing")
-4. Push to the branch (git push origin feature/amazing-thing)
-5. Open a Pull Request
+- Fork the repo
+- Create your feature branch
+  - `git checkout -b feature/amazing-thing`
+- Commit your changes
+  - `git add -A`
+  - `git commit -m "Add amazing thing"`
+- Push your commits
+  - `git push origin feature/amazing-thing`
+  - **PRO TIP**: use `npx copy-branch` in this step... 😉
+- Open a Pull Request
 
 ## Other 👨‍💻
 
