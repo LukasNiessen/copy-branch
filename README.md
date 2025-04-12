@@ -1,47 +1,36 @@
 # copy-branch 📋
 
-![npm](https://img.shields.io/npm/v/copy-branch) ![GitHub](https://img.shields.io/github/license/LukasNiessen/copy-branch) ![npm downloads](https://img.shields.io/npm/dt/copy-branch)
+Just run `npx copy-branch` to copy your current Git branch name to your clipboard.
 
-# For Vanilla Git Gangster Devs 🥷🦅
-
-One command to rule them all - Instantly copy your current Git branch name to your clipboard with style and ease! Whether you're a developer juggling multiple branches or just need a quick way to share your branch name, copy-branch has got you covered.
-
-Why copy-branch? ✨
-
-- Fast: Copies your current Git branch name in a snap
-- Cross-platform: Works on Windows, macOS, and Linux
-- Smart: Detects if you're in a Git repository
-- Verbose mode: Get detailed insights when you need them
-- Zero config: Just run it with npx and go!
-
-Perfect for:
-
-- Sharing branch names in PRs
-- Quick commits
-- Team collaboration
-- Looking cool while doing it 😎
-
-Installation 🚀
-
-No installation needed! Use it directly with npx:
-
+```
 npx copy-branch
+Branch name "release/rc-5.4.1" copied to clipboard!
+```
 
-Want to install it locally? Sure thing:
-npm install -g copy-branch
+## Why? ✨
 
-Usage 🎯
+Because it's easier. Compare yourself:
 
-Basic Usage
-Run it in any Git repository:
-npx copy-branch
-Output:
-Branch name "feature/cool-stuff" copied to clipboard!
+- `git branch --show-current | pbcopy` for macOS,
+- `git branch --show-current | xclip -selection clipboard` on Linux,
+- `git branch --show-current | clip` for Windows, or
+- `git branch` and manually copying it.
 
-Verbose Mode
+## Installation 🚀
+
+Not needed! Use it directly with npx: `npx copy-branch`
+
+Want to install it locally? Sure: `npm install -g copy-branch`
+
+## Verbose Mode
+
 Want to see what's happening under the hood?
+
+```
 npx copy-branch --verbose
-Output:
+```
+
+```
 [INFO] Operating System detected: darwin
 [INFO] Found Git in PATH: /usr/local/bin/git
 [INFO] Executing git command: /usr/local/bin/git rev-parse --git-dir
@@ -49,46 +38,31 @@ Output:
 [INFO] Executing git command: /usr/local/bin/git rev-parse --abbrev-ref HEAD
 [INFO] Current branch detected: feature/cool-stuff
 Branch name "feature/cool-stuff" copied to clipboard!
+```
 
-Not in a Git repo?
-No worries, we'll let you know:
-This directory is not a Git repository. Please navigate to a Git repository and try again.
-
-Features 🌟
-
-- Smart Git Detection: Finds Git executable across all platforms
-- Clipboard Magic: Copies your branch name instantly
-- Verbose Logging: Detailed output with --verbose flag
-- Error Handling: Graceful messages for non-Git directories
-- Lightweight: Minimal dependencies, maximum efficiency
-
-Requirements 📋
+## Requirements 📋
 
 - Node.js (v14 or higher recommended)
 - Git installed on your system
 
-Contributing 🤝
+## Contributing 🤝
 
-Love copy-branch? Want to make it even better? Contributions are welcome!
+Pull Requests are highly welcome.
 
 1. Fork the repo
 2. Create your feature branch (git checkout -b feature/amazing-thing)
-3. Commit your changes (git commit -m "Add amazing thing")
+3. Commit your changes (git add -A, git commit -m "Add amazing thing")
 4. Push to the branch (git push origin feature/amazing-thing)
 5. Open a Pull Request
 
-Check out the GitHub repository (https://github.com/LukasNiessen/copy-branch) for more details!
+## Other 👨‍💻
 
-License 📜
+⌚ Built to save time
 
-MIT License - See LICENSE (LICENSE) for details.
+📜 MIT License
 
-Author 👨‍💻
+⭐ Star if you find this useful!
 
-Built with ❤️ by Lukas Nießen (https://github.com/LukasNiessen)
+📦 npm: copy-branch (https://www.npmjs.com/package/copy-branch)
 
-⭐ Star us on GitHub if you find this useful!  
-📦 npm: copy-branch (https://www.npmjs.com/package/copy-branch)  
 🐛 Issues: Report a bug (https://github.com/lukas-niessen/copy-branch/issues)
-
-Happy branching! 🌳🥷🦅
